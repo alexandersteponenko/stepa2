@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  background: white;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+section {
+  padding-bottom: 150px;
+  width: 1400px;
+  margin: 0 auto;
+}
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  color: #121212;
+}
+
+.interior__text,
+a.about__btn,
+a.item__info,
+a.project__link {
+  font-weight: 400;
+}
+h1 {
+  width: 956px;
+  line-height: 60px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  letter-spacing: -1.8px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: normal;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+}
+h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: -0.9px;
+}
+
+.interior__wrapper {
+  position: relative;
+  width: 1150px;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-image: url("../resources/chair.png");
+}
+
+.interior__text {
+  position: absolute;
+  width: 430px;
+  bottom: 40px;
+  left: 40px;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  font-style: normal;
+  line-height: normal;
+  color: #fff;
+}
+
+p.about__text {
+  width: 1048px;
+  margin-bottom: 30px;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -1.35px;
+  color: #121212;
+}
+
+.about__btn {
+  display: inline-flex;
+  padding: 20px 40px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 20px;
+  background: #ad1818;
+  color: #fff;
+}
+.projects__item {
+  margin-bottom: 90px;
+}
+.projects__image {
+  margin-bottom: 15px;
+}
+
+a.projects__info {
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: -0.6px;
+  color: #ad1818;
+}
+
+a.projects__link {
+  display: block;
+  width: 100%;
+  height: 153px;
+  line-height: 153px;
+  border-radius: 5px;
+  font-size: 30px;
+  font-style: normal;
+  border: 1px solid #ad1818;
+  text-decoration: none;
+  color: #ad1818;
+  text-align: center;
+  letter-spacing: -0.9px;
+}
+a.projects__link:hover {
+  background-color: #ad1818;
+  color: #fff;
+}
+.services {
+  padding-top: 150px;
+  background: #121212;
+}
+.services__item {
+  margin-bottom: 60px;
+}
+.services__title {
+  color: #fff;
+}
+li.services__item:last-child {
+  margin-bottom: 0;
+}
+.services__image {
+  margin-bottom: 15px;
+}
+
+.services__text {
+  color: #fff;
+}
+h3.services__text {
+  margin-bottom: 0;
+}
